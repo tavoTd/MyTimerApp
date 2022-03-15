@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		38C80F9989A389C4462F98C1 /* Pods_MyTimerApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76483A06D89FDD98E149D86D /* Pods_MyTimerApp.framework */; };
 		AE81C1A627E0E57D0098D794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81C1A527E0E57D0098D794 /* AppDelegate.swift */; };
-		AE81C1A827E0E57D0098D794 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81C1A727E0E57D0098D794 /* SceneDelegate.swift */; };
-		AE81C1AA27E0E57D0098D794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81C1A927E0E57D0098D794 /* ViewController.swift */; };
 		AE81C1AD27E0E57D0098D794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE81C1AB27E0E57D0098D794 /* Main.storyboard */; };
 		AE81C1AF27E0E57F0098D794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE81C1AE27E0E57F0098D794 /* Assets.xcassets */; };
 		AE81C1B227E0E57F0098D794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE81C1B027E0E57F0098D794 /* LaunchScreen.storyboard */; };
 		AE81C1BA27E0E6E60098D794 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE81C1B927E0E6E60098D794 /* GoogleService-Info.plist */; };
+		AE81C1BD27E0E90B0098D794 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81C1BC27E0E90B0098D794 /* UITextField+Extension.swift */; };
+		AE81C1C227E0E9560098D794 /* MyTimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81C1C127E0E9560098D794 /* MyTimerModel.swift */; };
+		AE81C1C427E0E9720098D794 /* MyTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81C1C327E0E9720098D794 /* MyTimerViewModel.swift */; };
+		AE81C1C627E0E9990098D794 /* MyTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE81C1C527E0E9990098D794 /* MyTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +24,15 @@
 		95CE6E63491FE230B0575CFB /* Pods-MyTimerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTimerApp.debug.xcconfig"; path = "Target Support Files/Pods-MyTimerApp/Pods-MyTimerApp.debug.xcconfig"; sourceTree = "<group>"; };
 		AE81C1A227E0E57D0098D794 /* MyTimerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTimerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE81C1A527E0E57D0098D794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE81C1A727E0E57D0098D794 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE81C1A927E0E57D0098D794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE81C1AC27E0E57D0098D794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE81C1AE27E0E57F0098D794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE81C1B127E0E57F0098D794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE81C1B327E0E57F0098D794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE81C1B927E0E6E60098D794 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AE81C1BC27E0E90B0098D794 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		AE81C1C127E0E9560098D794 /* MyTimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimerModel.swift; sourceTree = "<group>"; };
+		AE81C1C327E0E9720098D794 /* MyTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimerViewModel.swift; sourceTree = "<group>"; };
+		AE81C1C527E0E9990098D794 /* MyTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimerView.swift; sourceTree = "<group>"; };
 		D96796B314206E71864E343F /* Pods-MyTimerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTimerApp.release.xcconfig"; path = "Target Support Files/Pods-MyTimerApp/Pods-MyTimerApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +54,6 @@
 				95CE6E63491FE230B0575CFB /* Pods-MyTimerApp.debug.xcconfig */,
 				D96796B314206E71864E343F /* Pods-MyTimerApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,12 +82,46 @@
 				AE81C1B027E0E57F0098D794 /* LaunchScreen.storyboard */,
 				AE81C1B927E0E6E60098D794 /* GoogleService-Info.plist */,
 				AE81C1B327E0E57F0098D794 /* Info.plist */,
-				AE81C1A727E0E57D0098D794 /* SceneDelegate.swift */,
-				AE81C1A927E0E57D0098D794 /* ViewController.swift */,
 				AE81C1AB27E0E57D0098D794 /* Main.storyboard */,
-				AE81C1AE27E0E57F0098D794 /* Assets.xcassets */,
+				AE81C1BE27E0E9230098D794 /* Model */,
+				AE81C1BF27E0E92A0098D794 /* ViewModel */,
+				AE81C1C027E0E9350098D794 /* View */,
+				AE81C1BB27E0E8E90098D794 /* Utils */,
 			);
 			path = MyTimerApp;
+			sourceTree = "<group>";
+		};
+		AE81C1BB27E0E8E90098D794 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AE81C1BC27E0E90B0098D794 /* UITextField+Extension.swift */,
+				AE81C1AE27E0E57F0098D794 /* Assets.xcassets */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AE81C1BE27E0E9230098D794 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE81C1C127E0E9560098D794 /* MyTimerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE81C1BF27E0E92A0098D794 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AE81C1C327E0E9720098D794 /* MyTimerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AE81C1C027E0E9350098D794 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE81C1C527E0E9990098D794 /* MyTimerView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		B40E7F604823FDD242CEEBF8 /* Frameworks */ = {
@@ -211,9 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE81C1AA27E0E57D0098D794 /* ViewController.swift in Sources */,
+				AE81C1BD27E0E90B0098D794 /* UITextField+Extension.swift in Sources */,
+				AE81C1C627E0E9990098D794 /* MyTimerView.swift in Sources */,
 				AE81C1A627E0E57D0098D794 /* AppDelegate.swift in Sources */,
-				AE81C1A827E0E57D0098D794 /* SceneDelegate.swift in Sources */,
+				AE81C1C227E0E9560098D794 /* MyTimerModel.swift in Sources */,
+				AE81C1C427E0E9720098D794 /* MyTimerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +407,6 @@
 				INFOPLIST_FILE = MyTimerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -398,7 +436,6 @@
 				INFOPLIST_FILE = MyTimerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
